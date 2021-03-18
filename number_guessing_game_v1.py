@@ -17,7 +17,7 @@ def welcomeUser():
 
 # Add the numbers 0 - 100 into a list
 def populateList(listNumbers):
-    for i in range(101):
+    for i in range(1, 101):
         listNumbers.append(i)
     return listNumbers
 
